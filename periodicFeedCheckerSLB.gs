@@ -2,8 +2,8 @@
 var mySchoologyDisplayName = ""; // Your display name (as shown above Schoology posts)
 var schoologyUsername = ""; // Your Schoology username
 var schoologyPassword = ""; // Your Schoology password
-var excludedTeacherDisplayNames = []; // An array of the display names of teachers whose posts should be liked after a delay
-var excludedTeacherDisplayTime = ; // The delay, in milliseconds, that the Schoology like bot should wait until liking excluded teachers' posts
+var excludedTeacherDisplayNames = []; // An array of the display names of teachers whose posts should be liked after a delay (can be left blank)
+var excludedTeacherDisplayTime = 0; // The delay, in milliseconds, that the Schoology like bot should wait until liking excluded teachers' posts (can be left at 0 if you're not using this)
 
 // Various escaping of special characters that must be done to sanitize inputs to the program
 mySchoologyDisplayName = escapeRegExp(mySchoologyDisplayName);
